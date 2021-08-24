@@ -75,7 +75,6 @@ const Item = ({ click, data }) => {
 
   return (
     <Card
-      style={{cursor: 'pointer'}}
       onClick={() => click(data)}
       onMouseEnter={() => setShowIcon(true)}
       onMouseLeave={() => !data.favorite ? setShowIcon(false) : null}
