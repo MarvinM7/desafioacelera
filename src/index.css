@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Titillium';
+  src: local('Titillium'), url('./assets/fonts/TitilliumWeb-Regular.ttf') format('tff');
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.font-text {
+  font-family: 'Titillium';
+}
+
+.font-pokemon-number {
+  color: #828282
+}
+
+.text-logo {
+  color: #FFFFFF;
+  font-size: xx-large;
+}
+
+.navbar {
+  background-color: #E2350D;
+  margin-bottom: 40px;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
+
+.color-red {
+  color: #E2350D;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 80vh;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 200px;
+  border: 3px solid #FFFFFF; 
+  background-color: #E2350D;
+}
+
+.type {
+  border: 2px solid #E2350D;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 35px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.container-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+}
+
+.container-icon:hover > icon-fav {
+  color: 'blue';
+  display: none;
+}
+
+.card {
+  border: 0;
+}
+
+.card-body {
+  background-color: #F2F2F2;
+}
+
+.card-footer {
+  background-color: #FFFFFF;
+  border-top: 0;
+}
+
+.grid-pokemon {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 12rem);
+  grid-gap: 10px;
+  justify-content: space-between
+}
+
+.grid-type {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px
+}
+
+.pokemon-type {
+  color: #FFFFFF;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  min-height: 70vh;
+  justify-content: center
+}
