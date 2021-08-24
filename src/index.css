@@ -115,5 +115,14 @@ body {
 }
 
 .input {
-  border-radius: 45px;
+  border-radius: 40px;
+}
+
+.input-text {
+  background-color: #F2F2F2;
+}
+
+.select {
+  color:  #E2350D;
+  border-color:  #E2350D
 }
