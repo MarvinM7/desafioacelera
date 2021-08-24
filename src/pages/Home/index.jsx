@@ -287,7 +287,7 @@ const Home = () => {
             <Col xs={'12'} sm={'8'} md={'6'}>
               <Form>
                 <Form.Group className="mb-3" controlId="search">
-                  <Form.Control className="font-text" type="text" placeholder="Pesquisar por nome ou número" value={search} onChange={(e) => setSearch(e.target.value)} />
+                  <Form.Control className="font-text input" type="text" placeholder="Pesquisar por nome ou número" value={search} onChange={(e) => setSearch(e.target.value)} />
                 </Form.Group>
               </Form>
             </Col>
@@ -296,7 +296,7 @@ const Home = () => {
             <Col xs={'12'} sm={'4'} md={'3'}>
               <Form>
                 <Form.Group className="mb-3" controlId="order">
-                  <Form.Select className="font-text" value={order} onChange={(e) => setOrder(e.target.value)}>
+                  <Form.Select className="font-text input" value={order} onChange={(e) => setOrder(e.target.value)}>
                     <option value='1'>Menor número primeiro</option>
                     <option value='2'>Maior número primeiro</option>
                     <option value='3'>Nome A-Z</option>
